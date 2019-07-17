@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.aplicacionplataformas.MainActivity">
+    <item
+        android:id="@+id/ADD"
+        android:orderInCategory="100"
+        android:title="@string/menu_crear"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/DELETE"
+        android:orderInCategory="100"
+        android:title="@string/menu_borrar_todas"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/EXIST"
+        android:orderInCategory="100"
+        android:title="@string/menu_salir"
+        app:showAsAction="never" />
+
+
+</menu>
